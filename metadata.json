@@ -51,7 +51,7 @@
       "name": "scripture",
       "flavor": {
         "name": "audioTranslation",
-        "performance": ["drama"],
+        "performance": ["singleVoice", "drama"],
         "formats": {
           "format1": {
             "compression": "mp3",
