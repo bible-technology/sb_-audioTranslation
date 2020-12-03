@@ -3,14 +3,13 @@
     "version": "0.3.0-alpha",
     "category": "source",
     "generator": {
-      "softwareName": "DBLImport",
-      "softwareVersion": "0.0.0",
-      "userName": "Eric Pyle"
+      "softwareName": "Example Importer",
+      "softwareVersion": "0.0.0"
     },
     "defaultLanguage": "en",
-    "dateCreated": "2018-03-15T19:38:40.762935+00:00",
+    "dateCreated": "2020-11-15T19:38:40.762935+00:00",
     "comments": [
-      "Updated with working audio files for GEN 1-3 and MAT 1-3, test browser open on success"
+      "Handcrafted demo with 1JN audio"
     ]
   },
   "idAuthorities": {
@@ -24,19 +23,19 @@
   "identification": {
     "systemId": {
       "dbl": {
-        "id": "6e0d81a24efbb679",
-        "revision": "9"
+        "id": "9879dbb7cfe39e4d",
+        "revision": "4"
       }
     },
     "idAuthority": "dbl",
     "name": {
-      "en": "TEST Audio Bible - Local"
+      "en": "English - World English Bible (NT)"
     },
     "description": {
-      "en": "TEST Audio Bible - Description"
+      "en": "English - World English Bible (NT) Drama"
     },
     "abbreviation": {
-      "en": "DBLTD"
+      "en": "WEB"
     }
   },
   "languages": [
@@ -52,60 +51,42 @@
       "name": "scripture",
       "flavor": {
         "name": "audioTranslation",
-        "performance": ["multipleVoice", "drama", "withMusic"],
+        "performance": ["drama"],
         "formats": {
           "format1": {
             "compression": "mp3",
-            "trackConfiguration": "2/0 (Stereo)",
-            "bitRate": 128000,
+            "trackConfiguration": "1/0 (Mono)",
+            "bitRate": 64000,
             "bitDepth": 16,
-            "samplingRate": 44100
+            "samplingRate": 22050
           }
         }
       },
-      "canonType": ["ot", "nt"],
+      "canonType": ["nt"],
       "canonSpec": {
-        "ot": {
-          "name": "western"
-        },
         "nt": {
           "name": "western"
         }
       },
       "currentScope": {
-        "GEN": [],
-        "MAT": []
+        "1JN": []
       }
     }
   },
   "confidentiality": {
     "metadata": "unrestricted",
-    "ingredients": "restricted"
+    "ingredients": "unrestricted"
   },
   "agencies": [
     {
-      "id": "dbl::54650cfa5117ad690fb05fb6",
-      "roles": ["rightsHolder"],
-      "url": "http://thedigitalbiblelibrary.org",
+      "id": "dbl::545d2cb01fabb944c6ac48e8",
+      "roles": ["rightsHolder", "content", "publication", "management", "qa"],
+      "url": "http://www.faithcomesbyhearing.com",
       "name": {
-        "en": "Organization for DBL Testing"
+        "en": "Hosanna Ministries"
       },
       "abbr": {
-        "en": "TEST"
-      }
-    },
-    {
-      "id": "dbl::54650ce75117ad68c4c49e91",
-      "roles": ["content", "publication", "management", "finance", "qa"],
-      "name": {
-        "en": "Test Creator"
-      }
-    },
-    {
-      "id": "dbl::54650ce85117ad68c4c49e99",
-      "roles": ["content", "publication", "management", "finance", "qa"],
-      "name": {
-        "en": "Test Publisher"
+        "en": "FCBH"
       }
     }
   ],
@@ -118,94 +99,73 @@
     }
   ],
   "names": {
-    "book-gen": {
+    "book-1jn": {
       "abbr": {
-        "en": "Gn"
+        "en": "1 John"
       },
       "short": {
-        "en": "Genesis"
+        "en": "1 John"
       },
       "long": {
-        "en": "Genesis"
-      }
-    },
-    "book-mat": {
-      "abbr": {
-        "en": "Mt"
-      },
-      "short": {
-        "en": "Matthew"
-      },
-      "long": {
-        "en": "The Gospel according to Matthew"
+        "en": "John’s First Letter"
       }
     }
   },
   "ingredients": {
-    "release/audio/GEN/GEN_001.mp3": {
+    "ingredients/audio/1JN/1JN_001.mp3": {
       "checksum": {
         "md5": "b5fd441feb7eed02c68dca3d8dbbfe80"
       },
       "mimeType": "audio/mpeg",
       "size": 10168353,
       "scope": {
-        "GEN": ["1"]
+        "1JN": ["1"]
       }
     },
-    "release/audio/GEN/GEN_002.mp3": {
+    "ingredients/audio/1JN/1JN_002.mp3": {
       "checksum": {
-        "md5": "d8737c9c4339b95ab0c876a6867415af"
+        "md5": "b5fd441feb7eed02c68dca3d8dbbfe80"
       },
       "mimeType": "audio/mpeg",
-      "size": 7977633,
+      "size": 10168353,
       "scope": {
-        "GEN": ["2"]
+        "1JN": ["2"]
       }
     },
-    "release/audio/GEN/GEN_003.mp3": {
+    "ingredients/audio/1JN/1JN_003.mp3": {
       "checksum": {
-        "md5": "e5d4e332ac7070a66915ce2f898f85f6"
+        "md5": "b5fd441feb7eed02c68dca3d8dbbfe80"
       },
       "mimeType": "audio/mpeg",
-      "size": 9992673,
+      "size": 10168353,
       "scope": {
-        "GEN": ["3"]
+        "1JN": ["3"]
       }
     },
-    "release/audio/MAT/MAT_001.mp3": {
+    "ingredients/audio/1JN/1JN_004.mp3": {
       "checksum": {
-        "md5": "48e2d311b4de8a61b1f311ddb2be970f"
+        "md5": "b5fd441feb7eed02c68dca3d8dbbfe80"
       },
       "mimeType": "audio/mpeg",
-      "size": 8399073,
+      "size": 10168353,
       "scope": {
-        "MAT": ["1"]
+        "1JN": ["4"]
       }
     },
-    "release/audio/MAT/MAT_002.mp3": {
+    "ingredients/audio/1JN/1JN_005.mp3": {
       "checksum": {
-        "md5": "f5fad0278058706de82fdcc800da83ff"
+        "md5": "b5fd441feb7eed02c68dca3d8dbbfe80"
       },
       "mimeType": "audio/mpeg",
-      "size": 10095393,
+      "size": 10168353,
       "scope": {
-        "MAT": ["2"]
-      }
-    },
-    "release/audio/MAT/MAT_003.mp3": {
-      "checksum": {
-        "md5": "8019d42da92d9ad42be0e0c75ef4fddb"
-      },
-      "mimeType": "audio/mpeg",
-      "size": 6794913,
-      "scope": {
-        "MAT": ["3"]
+        "1JN": ["5"]
       }
     }
   },
   "copyright": {
     "fullStatementRich": {
-      "en": "<p>Test Copyright. All rights reserved.</p>"
+      "en": "<p>℗ 2013 Hosanna</p>"
     }
   }
 }
