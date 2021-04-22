@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.3.0-alpha",
+    "version": "0.3.0",
     "category": "source",
     "generator": {
       "softwareName": "Example Importer",
@@ -21,13 +21,14 @@
     }
   },
   "identification": {
-    "systemId": {
+    "primary": {
       "dbl": {
-        "id": "9879dbb7cfe39e4d",
-        "revision": "4"
+        "9879dbb7cfe39e4d": {
+          "revision": "4",
+          "timestamp": "2020-11-15T19:38:40.762935+00:00"
+        }
       }
     },
-    "idAuthority": "dbl",
     "name": {
       "en": "English - World English Bible (NT)"
     },
@@ -73,10 +74,7 @@
       }
     }
   },
-  "confidentiality": {
-    "metadata": "unrestricted",
-    "ingredients": "unrestricted"
-  },
+  "confidential": false,
   "agencies": [
     {
       "id": "dbl::545d2cb01fabb944c6ac48e8",
