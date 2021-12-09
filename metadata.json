@@ -156,8 +156,10 @@
     }
   },
   "copyright": {
-    "fullStatementRich": {
-      "en": "<p>℗ 2013 Hosanna</p>"
-    }
+    "shortStatemtns": [{
+      "statement": "<p>℗ 2013 Hosanna</p>",
+      "mimetype": "text/html",
+      "lang": "en"
+    }]
   }
 }
