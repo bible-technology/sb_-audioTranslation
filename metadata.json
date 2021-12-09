@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "category": "source",
     "generator": {
       "softwareName": "Example Importer",
@@ -61,12 +61,6 @@
             "bitDepth": 16,
             "samplingRate": 22050
           }
-        }
-      },
-      "canonType": ["nt"],
-      "canonSpec": {
-        "nt": {
-          "name": "western"
         }
       },
       "currentScope": {
@@ -162,8 +156,10 @@
     }
   },
   "copyright": {
-    "fullStatementRich": {
-      "en": "<p>℗ 2013 Hosanna</p>"
-    }
+    "shortStatements": [{
+      "statement": "<p>℗ 2013 Hosanna</p>",
+      "mimetype": "text/html",
+      "lang": "en"
+    }]
   }
 }
