@@ -63,12 +63,6 @@
           }
         }
       },
-      "canonType": ["nt"],
-      "canonSpec": {
-        "nt": {
-          "name": "western"
-        }
-      },
       "currentScope": {
         "1JN": []
       }
