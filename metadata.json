@@ -6,7 +6,7 @@
       "softwareName": "Example Importer",
       "softwareVersion": "0.0.0"
     },
-    "defaultLanguage": "en",
+    "defaultLocale": "en",
     "dateCreated": "2020-11-15T19:38:40.762935+00:00",
     "comments": [
       "Handcrafted demo with 1JN audio"
