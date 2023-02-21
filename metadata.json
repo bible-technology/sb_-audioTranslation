@@ -1,13 +1,14 @@
 {
+  "format": "scripture burrito",
   "meta": {
-    "version": "1.0.0-rc1",
+    "version": "1.0.0-rc2",
     "category": "source",
     "generator": {
       "softwareName": "Example Importer",
       "softwareVersion": "0.0.0"
     },
     "defaultLocale": "en",
-    "dateCreated": "2020-11-15T19:38:40.762935+00:00",
+    "dateCreated": "2023-02-21T00:00:00+00:00",
     "comments": [
       "Handcrafted demo with 1JN audio"
     ]
